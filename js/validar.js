@@ -1,0 +1,1 @@
+function validateForm(){let e=document.getElementById("password").value,l=document.getElementById("confirm-password").value,t=document.getElementById("password-error");return e!==l?(t.style.display="block",!1):(t.style.display="none",!0)}
